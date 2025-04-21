@@ -1,0 +1,175 @@
+{
+    "souscription" : {
+        "client": {
+            "civilite": "MR",
+            "codePromo": "TESTTEST",
+            "email": "paulette.raynaud@test-iliade.com",
+            "nom": "gillet",
+            "prenom": "Lou",
+            "telephone": "0615153615"
+        },
+        "cotitulaire": {
+            "civilite": "MRS",
+            "nom": "Dupont",
+            "prenom": "Jeanne"
+        },
+        "facturation": {
+            "modeDeFacturation": "MENS",
+            "adresse": {
+                "numero":"",
+                "nomDeRue":"21 Le Colombier",
+                "complement":"",
+                "codePostal":"81490",
+                "ville":"Noailhac",
+                "pays":"france"
+            }
+        },
+        "paiement": {
+           "iban": "FR5371865417121044918977518",
+            "jourDePrelevement": 5,
+            "nomAssocieIban": "Dupont",
+            "prenomAssocieIban": "Jean"
+        },
+        "pdl": {
+           "adresse": {
+                "codePostal": "81490",
+                "complement": "",
+                "nomDeRue": "21 Le Colombier",
+                "numero": "33",
+                "pays": "FR",
+                "ville": "Noailhac"
+            },
+            "linkyNiveau2": true,
+            "numero": "85397681864753"
+        },
+        "contrat": {
+             "budgetAnnuel": "600",
+            "dateDebutContrat": "2025-05-01",
+            "fta": "BTINFMUDT",
+            "mensualite": "50",
+            "optionTarifaire": "HPHC",
+            "puissanceSouscrite": 24,
+            "renoncementDelaiDeRetractation": true,
+            "typeDemande": "CFN",
+            "offre": ""
+        },
+        "estimation": {
+            "carBASE": 3198,
+            "carHP": 1861,
+            "carHC": 1337
+        },
+        "logement": {
+            "type": "MAISON",
+            "surface": 90,
+            "nbOccupants": 4,
+            "isolation": "MOINS_BONNE",
+            "chauffage": "ELECTRICITE",
+            "eauChaudeElec": true,
+            "equipements": {
+                "laveVaisselle": false,
+                "laveLinge": true,
+                "secheLinge": false,
+                "plaqueElec": true,
+                "fourElec": true
+            }
+        },
+        "vert": {
+            "pourcentage": 100
+        },
+        "partenaire": {
+            "email": "partenaire-2@alpiq.fr",
+            "cusId": "partenaire_cus_id"
+        }
+    }
+}
+
+
+
+
+
+/*
+{
+    "souscription" : {
+        "client": {
+            "civilite": "MR",
+            "codePromo": "anOtherCode",
+            "email": "anastasie.pasquier@test-iliade.com",
+            "nom": "gillet",
+            "prenom": "Lou",
+            "telephone": "0615153615"
+        },
+        "cotitulaire": {
+            "civilite": "MRS",
+            "nom": "Dupont",
+            "prenom": "Jeanne"
+        },
+        "facturation": {
+            "modeDeFacturation": "MENS",
+            "adresse": {
+                "numero":"",
+                "nomDeRue":"21 Le Colombier",
+                "complement":"",
+                "codePostal":"81490",
+                "ville":"Noailhac",
+                "pays":"france"
+            }
+        },
+        "paiement": {
+           "iban": "FR7640618803390004062352471",
+            "jourDePrelevement": 5,
+            "nomAssocieIban": "Dupont",
+            "prenomAssocieIban": "Jean"
+        },
+        "pdl": {
+           "adresse": {
+                "codePostal": "81490",
+                "complement": "",
+                "nomDeRue": "21 Le Colombier",
+                "numero": "33",
+                "pays": "FR",
+                "ville": "Noailhac"
+            },
+            "linkyNiveau2": true,
+            "numero": "57184627433349"
+        },
+        "contrat": {
+             "budgetAnnuel": "600",
+            "dateDebutContrat": "2025-04-30",
+            "fta": "BTINFMUDT",
+            "mensualite": "50",
+            "optionTarifaire": "HPHC",
+            "puissanceSouscrite": 24,
+            "renoncementDelaiDeRetractation": true,
+            "typeDemande": "CFN",
+            "offre": "PRIX_FIXE_01"
+        },
+        "estimation": {
+            "carBASE": 3198,
+            "carHP": 1861,
+            "carHC": 1337
+        },
+        "logement": {
+            "type": "MAISON",
+            "surface": 90,
+            "nbOccupants": 4,
+            "isolation": "MOINS_BONNE",
+            "chauffage": "ELECTRICITE",
+            "eauChaudeElec": true,
+            "equipements": {
+                "laveVaisselle": false,
+                "laveLinge": true,
+                "secheLinge": false,
+                "plaqueElec": true,
+                "fourElec": true
+            }
+        },
+        "vert": {
+            "pourcentage": 100
+        },
+        "partenaire": {
+            "email": "partenaire@alpiq.fr",
+            "cusId": "partenaire_cus_id"
+        }
+    }
+}
+*/

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-04-04T00:38:31.184280" rpa="false" schemaversion="5">
+<suite id="s1" name="Souscription" source="C:\Users\ITNV\PycharmProjects\PythonProject\.venv\Pages\souscription.robot">
+<test id="s1-t1" name="Test API SOUSCRIPTION" line="17">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2025-04-04T00:38:31.886318" level="INFO">Creating Session using : alias=jsonplaceholder, url=https://particuliers-alpiq.oc-i.eu/souscription/1, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>jsonplaceholder</arg>
+<arg>${TCM_API_soucription}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2025-04-04T00:38:31.886025" elapsed="0.000586"/>
+</kw>
+<kw name="GET" owner="RequestsLibrary">
+<msg time="2025-04-04T00:38:32.852656" level="INFO">GET Request : url=https://particuliers-alpiq.oc-i.eu/souscription/1 
+ path_url=/souscription/1 
+ headers={'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2025-04-04T00:38:32.855198" level="INFO">GET Response : url=https://particuliers-alpiq.oc-i.eu/souscription/1 
+ status=200, reason=OK 
+ headers={'Accept-Ranges': 'none', 'Content-Encoding': 'gzip', 'Content-Security-Policy-Report-Only': "script-src 'self' 'sha256-1gOt4L/IW7iTxSi/e/pC89sAWwRoK5FLdTICGKsNaOc='", 'Content-Type': 'text/html; charset=utf-8', 'Date': 'Fri, 04 Apr 2025 00:38:31 GMT', 'Etag': '"1265c8-Yjf8wG1zcyje8oGgtwWO0uNH7Qk"', 'Expect-Ct': 'max-age=0', 'Referrer-Policy': 'no-referrer', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains', 'Vary': 'Accept-Encoding', 'X-Cache-Status': 'HIT', 'X-Content-Type-Options': 'nosniff', 'X-Dns-Prefetch-Control': 'off', 'X-Download-Options': 'noopen', 'X-Frame-Options': 'SAMEORIGIN', 'X-Permitted-Cross-Domain-Policies': 'none', 'X-Xss-Protection': '0', 'Transfer-Encoding': 'chunked'} 
+ body=&lt;!doctype html&gt;
+&lt;html data-n-head-ssr lang="fr" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22fr%22%7D%7D"&gt;
+  &lt;head &gt;
+    &lt;title&gt;Souscrire contrat d&amp;#x27;électricité moins cher | Alpiq&lt;/title&gt;&lt;meta data-n-head="ssr" charset="utf-8"&gt;&lt;meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1"&gt;&lt;meta data-n-head="ssr" data-hid="charset" charset="utf-8"&gt;&lt;meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes"&gt;&lt;meta data-n-head="ssr" data-hid="apple-mobile-web-app-status-bar-style" name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;&lt;meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="Alpiq"&gt;&lt;meta data-n-head="ssr" data-hid="author" name="author" content="Alpiq Retail France S.A.S"&gt;&lt;meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="#013043"&gt;&lt;meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website"&gt;&lt;meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title" content="Alpiq"&gt;&lt;meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name" content="Alpiq"&gt;&lt;meta data-n-head="ssr" data-hid="og:description" name="og:description" property="og:description" content="Avec Alpiq, Profitez d&amp;#x27;une électricité moins chère et d&amp;#x27;une offre personnalisable ! Le leader de l&amp;#x27;électricité en Suisse, est désormais disponible pour les particuliers en France."&gt;&lt;meta data-n-head="ssr" data-hid="og:url" name="og:url" property="og:url" content="undefined/clients"&gt;&lt;meta data-n-head="ssr" name="robots" content="noindex"&gt;&lt;meta data-n-head="ssr" data-hid="description" name="description" content="Souscrivez en quelques clics à un contrat d&amp;#x27;électricité sur-mesure chez Alpiq. C&amp;#x27;est simple, rapide et en plus il y a des économies à la clé !"&gt;&lt;link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico?v=2"&gt;&lt;link data-n-head="ssr" data-hid="shortcut-icon" rel="shortcut icon" href="/pwa/icons/any/48x48.png"&gt;&lt;link data-n-head="ssr" data-hid="apple-touch-icon" rel="apple-touch-icon" href="/_nuxt/icons/icon_512x512.645e44.png" sizes="512x512"&gt;&lt;link data-n-head="ssr" rel="manifest" href="/_nuxt/manifest.26f061be.json" data-hid="manifest"&gt;&lt;link data-n-head="ssr" rel="canonical" href="https://particuliers-alpiq.oc-i.eu/souscription/1"&gt;&lt;script data-n-head="ssr" src="/createjs.js" defer&gt;&lt;/script&gt;&lt;script data-n-head="ssr" src="/keycloak.js" defer&gt;&lt;/script&gt;&lt;script data-n-head="ssr" src="//pixel.convertize.io/11243.js" defer&gt;&lt;/script&gt;&lt;script data-n-head="ssr" type="application/ld+json"&gt;{"@context":"https://schema.org","@type":"Organization","logo":"~/assets/svg/logo-alpiq.svg","name":"Alpiq","url":"https://particuliers.alpiq.fr","address":{"@type":"PostalAddress","addressCountry":"FR","addressLocality":"La Défense Cedex","postalCode":"92062","streetAddress":"1 place Zaha Hadid"},"contactPoint":[{"@type":"ContactPoint","telephone":"+33978468575","contactType":"customer service"}],"sameAs":["https://fr-fr.facebook.com/alpiq/","https://www.linkedin.com/company/alpiq/","https://twitter.com/alpiq"]}&lt;/script&gt;&lt;script data-n-head="ssr" data-hid="gtm-script"&gt;window['dataLayer']=[];if(!window._gtm_init){window._gtm_init=1;(function (w,n,d,m,e,p){w[d]=(w[d]==1||n[d]=='yes'||n[d]==1||n[m]==1||(w[e]&amp;&amp;w[e].p&amp;&amp;e[e][p]()))?1:0})(window,'navigator','doNotTrack','msDoNotTrack','external','msTrackingProtectionEnabled');(function(w,d,s,l,x,y){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});w[x]={};w._gtm_inject=function(i){if(w.doNotTrack||w[x][i])return;w[x][i]=1;var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.defer=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','_gtm_ids','_gtm_inject')};["GTM-MFDLSQ3"].forEach(function(i){window._gtm_inject(i)})&lt;/script&gt;&lt;link rel="preload" href="/_nuxt/fonts/VistaSansAltLight.26f7312.woff2" as="font" type="font/woff2" crossorigin&gt;&lt;link rel="preload" href="/_nuxt/fonts/VistaSansOT-Reg.5bf9e71.woff2" as="font" type="font/woff2" crossorigin&gt;&lt;link rel="preload" href="/_nuxt/fonts/VistaSansOTCE-Med.befe06d.woff2" as="font" type="font/woff2" crossorigin&gt;&lt;link rel="preload" href="/_nuxt/fonts/VistaSansOT-Bold.0dd8bc8.woff2" as="font" type="font/woff2" crossorigin&gt;&lt;link rel="preload" href="/_nuxt/fonts/VistaSansOT-Black.bc76f10.woff2" as="font" type="font/woff2" crossorigin&gt;&lt;style data-vue-ssr-id="464fe1bc:0 c7546792:0 207bc574:0 147dadf4:0"&gt;@font-face{font-family:"VistaSans";font-style:normal;font-weight:300;src:url(/_nuxt/fonts/VistaSansAltLight.26f7312.woff2) format("woff2"),url(/_nuxt/fonts/VistaSansAltLight.6c5a9fe.woff) format("woff")}@font-face{font-family:"VistaSans";font-style:normal;font-weight:400;src:url(/_nuxt/fonts/VistaSansOT-Reg.5bf9e71.woff2) format("woff2"),url(/_nuxt/fonts/VistaSansOT-Reg.5acf96e.woff) format("woff")}@font-face{font-family:"VistaSans";font-style:normal;font-weight:500;src:url(/_nuxt/fonts/VistaSansOTCE-Med.befe06d.woff2) format("woff2"),url(/_nuxt/fonts/VistaSansOTCE-Med.b0c8549.woff) format("woff")}@font-face{font-family:"VistaSans";font-style:normal;font-weight:700;src:url(/_nuxt/fonts/VistaSansOT-Bold.0dd8bc8.woff2) format("woff2"),url(/_nuxt/fonts/VistaSansOT-Bold.0d8cf87.woff) format("woff")}@font-face{font-family:"VistaSans";font-style:normal;font-weight:800;src:url(/_nuxt/fonts/VistaSansOT-Black.bc76f10.woff2) format("woff2"),url(/_nuxt/fonts/VistaSansOT-Black.0d7f28e.woff) format("woff")}*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}:root{--article-thumb-title-font-size:16px;--article-page-h1-color:#fff;--article-page-h1-size:45px;--article-page-h1-size-mobile:35px;--banner-mobile-bg-size:auto}.card{box-shadow:0 0 5px rgba(0,0,0,.08);overflow:hidden}.a-tooltip .tooltip-inner{box-shadow:0 1px 9px rgba(1,48,67,.15)}.a-tooltip .custom-text-tooltip,.range-tooltip{font-size:.875rem;margin-top:10px}.range-tooltip{z-index:99!important}.range-tooltip .tooltip-inner{box-shadow:0 1px 9px rgba(1,48,67,.15);max-width:203px}.range-tooltip .arrow:before{border-bottom-color:#fff!important}.range-tooltip .header{margin-bottom:0;font-weight:700;margin-left:.5rem}
+
+/*!
+ * Bootstrap v4.6.2 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--gray:#6c757d;--gray-dark:#343a40;--light-grey:#e1e1e1;--light-blue:#0077ad;--background-grey:#f5f5f5;--carrot-orange:#ea8c2e;--sub-grey:rgba(1,48,67,0.4);--error:red;--canceled:red;--inactive-grey:#979797;--primary:#ff8c00;--secondary:#052f43;--success:#01994f;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--general:#052f43;--white:#fff;--breakpoint-xs:0;--breakpoint-sm:480px;--breakpoint-md:768px;--breakpoint-lg:1024px;--breakpoint-xl:1280px;--breakpoint-2xl:1440px;--breakpoint-3xl:1600px;--breakpoint-4xl:1920px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}html{font-family:sans-serif;line-height:1.15;-webkit-tap-highlight-color:rgba(0,0,0,0)}article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}[tabindex="-1"]:focus:not(.focus-visible),[tabindex="-1"]:focus:not(:focus-visible){outline:0!important}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}abbr[data-original-title],abbr[title]{text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;border-bottom:0;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}address{font-style:normal;line-height:inherit}address,dl,ol,ul{margin-bottom:1rem}dl,ol,ul{margin-top:0}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}blockquote{margin:0 0 1rem}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}a{color:#ff8c00;text-decoration:none;background-color:transparent}a:hover{color:#b36200;text-decoration:underline}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}code,kbd,pre,samp{font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:1em}pre{margin-top:0;margin-bottom:1rem;overflow:auto;-ms-overflow-style:scrollbar}figure{margin:0 0 1rem}img{border-style:none}img,svg{vertical-align:middle}svg{overflow:hidden}table{border-collapse:collapse}caption{padding-top:.75rem;padding-bottom:.75rem;color:#6c757d;text-align:left;caption-side:bottom}th{text-align:inherit;text-align:-webkit-match-parent}label{display:inline-block;margin-bottom:.5rem}button{border-radius:0}button:focus:not(.focus-visible),button:focus:not(:focus-visible){outline:0}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}[role=button]{cursor:pointer}select{word-wrap:normal}[type=button],[type=reset],[type=submit],button{-webkit-appear... (set the log level to DEBUG or TRACE to see the full content) 
+ </msg>
+<msg time="2025-04-04T00:38:32.856298" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>${TCM_API_soucription}</arg>
+<doc>Sends a GET request.</doc>
+<status status="PASS" start="2025-04-04T00:38:31.887044" elapsed="0.969354"/>
+</kw>
+<kw name="Should Be Equal As Numbers" owner="BuiltIn">
+<msg time="2025-04-04T00:38:32.858590" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${response.status_code}</arg>
+<arg>200</arg>
+<doc>Fails if objects are unequal after converting them to real numbers.</doc>
+<status status="PASS" start="2025-04-04T00:38:32.857340" elapsed="0.001437"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-04-04T00:38:32.860131" level="INFO">&lt;Response [200]&gt;</msg>
+<arg>${response}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-04-04T00:38:32.859523" elapsed="0.000878"/>
+</kw>
+<doc>Test pour valider le GET request API Souscription</doc>
+<tag>GET</tag>
+<status status="PASS" start="2025-04-04T00:38:31.884604" elapsed="0.976558"/>
+</test>
+<test id="s1-t2" name="Lire un Fichier JSON" line="26">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-04-04T00:38:32.864469" level="INFO">C:UsersITNVPycharmProjectsPythonProject.venvPagesJsonSouscription.json</msg>
+<arg>${JSON FILE}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-04-04T00:38:32.864123" elapsed="0.000469"/>
+</kw>
+<kw name="Load Json From File" owner="JSONLibrary">
+<msg time="2025-04-04T00:38:32.865881" level="ERROR">JSON file: C:UsersITNVPycharmProjectsPythonProject.venvPagesJsonSouscription.json not found</msg>
+<msg time="2025-04-04T00:38:32.867142" level="FAIL">OSError</msg>
+<var>${data}</var>
+<arg>${JSON FILE}</arg>
+<doc>Load JSON from file.</doc>
+<status status="FAIL" start="2025-04-04T00:38:32.865288" elapsed="0.004144">OSError</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-04-04T00:38:32.870061" elapsed="0.000060"/>
+</kw>
+<status status="FAIL" start="2025-04-04T00:38:32.863093" elapsed="0.007730">OSError</status>
+</test>
+<status status="FAIL" start="2025-04-04T00:38:31.186334" elapsed="1.686979"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">GET</stat>
+</tag>
+<suite>
+<stat name="Souscription" id="s1" pass="1" fail="1" skip="0">Souscription</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-04-04T00:38:32.865881" level="ERROR">JSON file: C:UsersITNVPycharmProjectsPythonProject.venvPagesJsonSouscription.json not found</msg>
+</errors>
+</robot>
